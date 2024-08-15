@@ -40,7 +40,6 @@ To run the simulation:
 Example:
 ```python
 Rounds: 1000
-```
 Win %: 0.421
 ```
 
