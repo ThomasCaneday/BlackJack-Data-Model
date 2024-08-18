@@ -24,8 +24,8 @@ To run the simulation:
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository_url>
-   cd <repository_directory>
+   git clone https://github.com/ThomasCaneday/BlackJack-Win-Percentage-Simulator.git
+   cd BlackJack-Win-Percentage-Simulator
    ```
 
 2. **Run the Simulation**:
