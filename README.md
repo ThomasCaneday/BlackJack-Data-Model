@@ -30,7 +30,7 @@ To run the simulation:
 
 2. **Run the Simulation**:
    ```bash
-   python blackjack_simulator.py
+   python BlackJack-Win-Percentage-Simulator.py
    ```
 
 3. **Input the Number of Rounds**: When prompted, input the number of rounds you want to simulate. For example, entering `1000` will simulate 1000 rounds of Blackjack.
