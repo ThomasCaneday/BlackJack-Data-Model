@@ -68,7 +68,7 @@ class BlackjackGame:
         # Manipulate this conditional variable
         # Findings: Less than 12 = 0.420049
         # Findings: Less than 14 = 0.420169
-        while player_hand.value < 17:
+        while player_hand.value < player_hit_value:
             player_hand.add_card(deck.draw())
             if player_hand.is_busted:
                 return  # Player loses, no win increment
@@ -86,8 +86,9 @@ class BlackjackGame:
 
 # Example usage:
 game = BlackjackGame()
-rounds = input("Rounds: ")
-rounds = int(rounds)
+rounds = int(input("Rounds: "))
+player_hit_value = int(input("Enter the value at which the player should stop hitting: "))
+
 for _ in range(rounds):  # Play 100 rounds
     game.play_round()
 
